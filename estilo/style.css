@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@
 :root {
     --fonte01: 'Sawarabi Gothic', sans-serif;
     --fonte02: 'Sorts Mill Goudy', serif;
-
 }
 
 header {
@@ -19,15 +19,14 @@ header {
     font-family: var(--fonte01);
     background-color: black;
     color: white;
-    padding: 30px 0px;
-    
-    
+    padding: 30px 0px;    
 }
 
 h1 {
-    font-size: 5vw;
-    font-variant: small-caps;
 
+    font-variant: small-caps;
+    font-size: 6vw;
+    text-align: center; 
 }
 
 header p{
@@ -51,23 +50,21 @@ h2 {
 }
 
 section {
-    font-family: var(--fonte02);
-    font-size: 1.5em;
-    padding: 6vh;
-    text-indent: 30px;
-    line-height: 4vh;
-    text-align: justify;  
-
+    
+    padding: 5vh;
+    text-indent: 20px;  
 }
 
 section p {
     margin: auto;
-    min-width: 200px;
-    max-width: 700px;
     font-size: 30px;
-    line-height: 1.5em;
     
+    line-height: 40px;
+    min-width: 350px;
+    max-width: 800px;
+    text-align: left;
 }
+
 .normal {
     background-color: rgb(250, 250, 250);
 }
@@ -75,10 +72,12 @@ section p {
 .imagem {
     box-shadow: inset 0px 1px 7px 0px rgba(0, 0, 0, 0.651);
 }
+
 .imagem p {
     background-color: rgba(2, 2, 2, 0.123);
     padding: 5px;
 }
+
 #war1 {
     background-color: black;
     background-image: url(../imagens/war1.jpg);
@@ -86,7 +85,6 @@ section p {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-
 }
 #war2 {
     background-color: black;
@@ -96,6 +94,7 @@ section p {
     background-position: center center;
     background-attachment: fixed;
 }
+
 .imagem p {
     color: white;
 }
