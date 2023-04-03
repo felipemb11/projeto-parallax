@@ -7,19 +7,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
-
 :root {
     --fonte01: 'Sawarabi Gothic', sans-serif;
-    --fonte02: 'Sorts Mill Goudy', serif;
 }
 
 header {
     text-align: center;
     font-family: var(--fonte01);
-    background-color: black;
+    text-shadow: 0px 2px 12px black;
     color: white;
-    padding: 30px 0px;    
+    padding: 30px 0px;
+    background-color: black;
+    background-image: url(../imagens/rainbf4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 h1 {
@@ -44,7 +46,6 @@ a:hover {
 }
 
 h2 {
-    font-family: var(--fonte01);
     padding-bottom: 100px;
     text-align: center;
 }
@@ -86,6 +87,7 @@ section p {
     background-position: center center;
     background-attachment: fixed;
 }
+
 #war2 {
     background-color: black;
     background-image: url(../imagens/war2.jpg);
@@ -106,4 +108,3 @@ footer {
     padding: 5px;
     font-size: 1.2em;
 }
-
